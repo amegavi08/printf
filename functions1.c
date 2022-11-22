@@ -103,7 +103,7 @@ int width, int precision, int size)
 * Return: Number of chars printed
 */
 
-int print_hexa_upper(va_list types, char buffer[], ont flags, int width,
+int print_hexa_upper(va_list types, char buffer[], int flags, int width,
 	int precision, int size)
 {
 	return (print_hexa(types, "0123456789ABCDEF", buffer, flags, 'x',
